@@ -1,0 +1,97 @@
+*{
+    overflow-x: hidden;
+}
+.info{
+    background:#c9c1ac;
+}
+body{
+    font-family: 'Arizonia', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+
+}
+h1{
+    font-size: 140px;
+}
+.primary-color
+{
+    color: #ff0080;
+}
+.info h2{
+    word-spacing: 0.6rem;
+}
+.info a{
+    transition:color 1ms ease-in-out;
+}
+.info a:hover{
+    color:#242424;
+}
+.heading1{
+    padding-left: 500px;
+    color: #ff0080;
+    position: absolute;
+    top:30%;
+    width:100%
+}
+.heading2{
+    padding-left: 600px;
+    color: #000000;
+    position: absolute;
+    top: 70%;
+    width:100%;
+}
+.opa{
+    opacity: 0.9;
+}
+body{
+    margin:0;
+    background: gray;
+}
+nav{
+    background: blanchedalmond;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background:#c9c1ac ;
+    font-size: 17px;
+    color:black;
+    padding: 20px 52.4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    background: skyblue;
+    color: #ff0080;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+    background: #00bfff;
+    overflow: auto;
+}
+.gallery{
+    margin: 27px;
+    border: 1px solid #ff0080;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 25px;
+    text-align: center;
+}

@@ -1,0 +1,164 @@
+*{margin: 0; padding: 0;}
+body{
+  overflow-x: hidden;
+  font-family: 'Flamenco', cursive;
+}
+.opa {
+  opacity: 0.6;
+}
+
+.bdr{
+  border-color: red;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-width: 30px;
+}
+.heading{
+  color: rgb(231, 41, 41);
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.btn1{
+  border: 1px solid #3498db;
+  background: none;
+  font-family: montserrat;
+  cursor: pointer;
+  transition: 0.8s;
+  color: #3498db;
+  overflow: hidden;
+}
+.btn1:hover{
+  color: black;
+}
+.qwe{
+  top: 53%;
+  margin: 6rem;
+}
+.adjsize{
+  font-size: 30px;
+  padding: 10px;
+}
+.heading2{
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+.wd{
+  top: 0%;
+  position: absolute;
+  width: 350px;
+  height: 54rem;
+  background-color: black;
+  opacity: 0.9;
+  padding: 55px;
+  color: white;
+}
+
+.colorchange{
+    animation: animate 3s linear infinite;
+}
+
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
+}
+
+
+
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: rotateY(90 deg);
+  }
+  100%{
+    opacity: 1;
+    transform: rotateX(90 deg);
+  }
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1207px) {
+  .wd{
+    width: 280px;
+    
+  }
+
+
+  .team-A{
+    width: 10em;
+    margin-left: 0.9rem;
+    align-items: center;
+  }
+  .team-B{
+    width: 20em;
+    margin-left: 0.9rem;
+    align-items: center;
+    overflow: hidden;
+  }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+  .wd{
+    width: 250px;
+    padding: 35px;
+  }
+
+  .team{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .team .team-A{
+    width: 15rem;
+    align-self: center;
+  }
+  .team-B{
+    width: 30em;
+    align-self: center;
+  }
+
+}
+
+
+@media only screen and (max-width: 620px) {
+  .qwe{
+    margin: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
